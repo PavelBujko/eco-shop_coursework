@@ -56,6 +56,9 @@
     align-items: center;
     height: 100%;
 }
+#sections_site .flashcard a{
+    text-decoration: none;
+}
 
 #sections_site .flashcards{
     display: flex;
@@ -92,7 +95,7 @@
 #why_we .why_we-criteria{
     position: absolute;
     top: 52px;
-    left: 140px;
+    left: 140px; 
     width: 828px;
     height: 460px;
     border-radius: 28px;
@@ -166,6 +169,6 @@
 
 #Why_you_natural_prosucts .chooses{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
