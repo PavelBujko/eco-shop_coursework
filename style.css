@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sections_site .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#sections_site h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 51px;
+    color: #3C484B;
+}
+
+#sections_site .flashcard{
+    width: 220px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 33px 41px 0px 41px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+#sections_site h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 25.5px;
+    text-align: center;
+    color: #3C484B;
+}
+
+#sections_site .button {
+    width: 141px;
+    height: 49px;
+    background-color: #25BA00;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+}
+
+#sections_site .flashcard p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#sections_site .flashcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+#sections_site{
+    margin-bottom: 67px;
+}
+
+#why_we .block-green{
+    width: 59.5%;
+    height: 566px;
+    background-color: #25BA00;
+}
+
+#why_we .block-img{
+    width: 40.5%;
+    height: 566px;
+    background-image: url(images/green_basket.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#why_we .blocks{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#why_we .why_we-criteria{
+    position: absolute;
+    top: 52px;
+    left: 140px;
+    width: 828px;
+    height: 460px;
+    border-radius: 28px;
+    background-color: #fff;
+    padding: 24px 69px 46px 42px;
+}
+
+#why_we .why_we-criteria span{
+    color: #25BA00;
+}
+
+#why_we .why_we-criteria h1{
+    font-family: 'Inter', sans-serif;
+    color: #25BA00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 26px;
+}
+
+#why_we .why_we-criteria p{
+    font-family: 'Inter', sans-serif;
+    color: #3C484B;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+#Why_you_natural_prosucts .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#Why_you_natural_prosucts h2{
+    font-family: 'Inter', sans-serif;
+    color: #3C484B;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 132px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Why_you_natural_prosucts span{
+    color: #25BA00;
+}
+
+#Why_you_natural_prosucts .Why_choose{
+    width: 400px;
+    height: 200px;
+    margin-top: 84px;
+    margin-bottom: 150px;
+}
+
+#Why_you_natural_prosucts .Why_choose h1{
+    color: #25BA00;
+    border-bottom: #25BA00 solid 2px;
+    line-height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+}
+
+#Why_you_natural_prosucts .Why_choose p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+    
+}
+
+#Why_you_natural_prosucts .chooses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
