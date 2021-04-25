@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    padding-left: 32px;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-variant: small-caps;
+    color: #8CD339;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: solid 10px #8CD339;
+    line-height: 28px;
+}
+
+.h-l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.button{
+    padding: 3px 7px 3px 7px;
+    background: #77B134;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+#shop .bg-image{
+    background-image: url(images_shop/shop.png);
+    height: 600px;
+    background-size: cover;
+}
+
+#shop .bg-color{
+    background-color: rgba(119, 177, 52, 0.38) ;
+    height: 600px;
+}
+
+#shop .shop-text{
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#shop h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+
+header{
+    padding-top: 15px;
+}
+
+aside{
+    width: 19%;
+    background: #FCFCFC;
+    display: inline-block;
+    padding-top: 35px;
+    vertical-align: top;
+}
+
+.range{
+    width: 80%;
+    display: inline-block;
+    background: #F0F0F0;
+    vertical-align: top;
+}
+
+
+aside a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: #3C484B;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+.conteiner-range{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 164px;
+    height: 246px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+.top img{
+    width: 164px;
+    height: 119px;
+}
+
+.top h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: #3C484B;
+    text-transform: uppercase;
+    padding-top: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.top p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-variant: small-caps;
+    padding-top: 10px;
+    padding-bottom: 19px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.plus, .minus{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #C4C4C4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    color: #C4C4C4;
+}
+
+.bottom input{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #C4C4C4 ;
+}
+
+.basket{
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    background: #CC5656;
+    border: 1px solid #CC5656;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+    #footer{
+        background-color: #3C484B;
+    }
+    
+    #footer .container{
+        max-width: 1300px;
+        margin: auto;
+    }
+    
+    #footer .information h1{
+        color: #25BA00;
+        font-family: 'Inter', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        display: inline-block;
+    }
+    
+    #footer .information{
+        width: 390px;
+        margin-top: 47px;
+        margin-bottom: 30px;
+    }
+    
+    #footer .information a{
+        color: #C4C4C4;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    #footer .footer-information{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #footer .social_networks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #footer .connection{
+        margin-top: 27px;
+    }
+    
+    #footer .connection p{
+        color: #C4C4C4;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 9px;
+    }
+
+
+#footer{
+    background-color: #3C484B;
+}
+
+#footer .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#footer .information h1{
+    color: #25BA00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#footer .information{
+    width: 390px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+}
+
+#footer .information a{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#footer .footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footer .social_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer .connection{
+    margin-top: 27px;
+}
+
+#footer .connection p{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 9px;
+}

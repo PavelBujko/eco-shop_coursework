@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-r{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    padding-left: 32px;
+    color: #FFFFFF;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    font-variant: small-caps;
+    color: #C4C4C4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: solid 10px #F0F0F0;
+    line-height: 28px;
+}
+
+
+.h-l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.button{
+    padding: 3px 7px 3px 7px;
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #3C484B;
+}
+
+#shop .bg-image{
+    background-image: url(images_sport/bg-img.png);
+    height: 600px;
+    background-size: cover;
+}
+
+#shop .bg-color{
+    background-color: rgba(60, 72, 75, 0.6);
+    height: 600px;
+}
+
+#shop .shop-text{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#shop h1{
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#shop p{
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 45px;
+}
+
+header{
+    padding-top: 15px;
+    
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.women-men{
+    width: 452px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bg-img-man{
+    background-image: url(images_sport/man-1.png);
+    width: 452px;
+    height: 300px;
+}
+
+.bg-img-woman{
+    background-image: url(images_sport/women-1.png);
+    width: 452px;
+    height: 300px;
+}
+
+.text-women-men{
+    padding-top: 25%;
+}
+
+.bg-color-choice{
+    background: #c4c4c4ae;
+    width: 452px;
+    height: 300px;
+}
+
+.text-women-men p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+.text-women-men h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.time-come-text h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    color: #3C484B;
+    padding-top: 36px;
+    padding-bottom: 5px;
+}
+
+.time-come-text p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.card-choice-main{
+    width: 25%;
+    /* width: 360px; */
+    height: 246px;
+    background-color: #3C484B;
+}
+
+.card-choice-main h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.card-choice-main img{
+    width: 71px;
+    height: 71px;
+    text-align: center;
+}
+
+.card-choice-text{
+    padding: 0 45px 0 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.card-choice-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.card-choice{
+    width: 25%;
+    height: 246px;
+    border: solid 1px #3C484B;
+}
+
+.card-choice h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #3C484B;
+}
+
+.card-choice img{
+    width: 71px;
+    height: 71px;
+    text-align: center;
+}
+
+.row-choices{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-color-kro{
+    background: linear-gradient(180deg, #3C484B 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(204, 86, 86, 0.5) 0%, rgba(255, 255, 255, 0) 100%), rgba(204, 86, 86, 0.5);
+    width: 100%;
+    height: 507px;
+    background-size: cover;
+}
+
+.left-img-kro{
+    background-image: url(images_sport/men-kro.png);
+    background-size: cover;
+    width: 60%;
+    height: 507px;
+}
+
+.right-text{
+    width: 40%;
+    height: 507px;
+    background: #3C484B;
+    padding: 58px 85px 65px 50px
+}
+
+.kinds-of-sports{
+    display: flex;
+    flex-direction: row;
+}
+
+.choice-of-sport{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.right-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 21px;
+    text-transform: uppercase;
+}
+
+.right-text ul{
+    padding-top: 21px;
+    padding-left: 21px;
+}
+
+.right-text li{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    text-align: left;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.bottom-red{
+    margin-top: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 127px;
+    background: #CC5656;
+    color:#3C484B;
+    padding: 11px 30px 11px 30px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-sport{
+    width: 33.3%;
+    padding: 0 40px 0 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.card-sport-r{
+    width: 33.3%;
+    padding: 0 50px 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-sport img, .card-sport-r img{
+    width: 89px;
+    padding-bottom: 22px;
+    padding-top: 57px;
+}
+
+.card-sport h1, .card-sport-r h1{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+.card-sport p, .card-sport-r p{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+
+.about_sport{
+    display: flex;
+    flex-wrap: wrap;
+}
