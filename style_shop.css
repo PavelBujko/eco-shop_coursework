@@ -15,6 +15,7 @@
 
 header nav a{
     padding-left: 32px;
+    text-transform: uppercase;
 }
 
 .main{
@@ -118,7 +119,7 @@ aside a{
 }
 
 .conteiner-range{
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
