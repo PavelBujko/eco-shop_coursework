@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <title>Эко магазин</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,7 +18,7 @@
         <section id="school">
             <div class="container">
                 <div class="line">
-                    <h1>Эко магазин</h1>
+                    <h1>Foodies</h1>
                     <nav>
                         <a href="#">О нас</a>
                         <a href="#">Магазин</a>
@@ -24,8 +26,8 @@
                         <a href="#">Советы</a>
                         <a href="#">Клуб</a>
                     </nav>
-                    <img src="Vector.png" href="Vector">
-                    <img src="button.png" href="button">
+                    <a href="#"><img src="images/Vector.png" href="Vector"></a>
+                    <a href="#"><img src="images/button.png" href="button"></a>
                 </div>
             </div>
         </section>
@@ -33,19 +35,137 @@
             <div class="container">
                 <div class="baseline">
                     <h2> Только натуральные продукты ! </h2>
-                    <p>............................. - это торговая марка правильного питания - вся продукция
+                    <p> Foodies - это торговая марка правильного питания - вся продукция
                         натуральная, выращена в экологически чистых местностях.</p>
                 </div>
             </div>
         </section>
     </header>
-    <section id="Our team">
+    <section id="our-team">
         <div class="container">
+            <h3>Наша команда</h3>
             <div class="underline">
-                <h3>Наша команда</h3>
+                <div class="PR">
+                    <img src="images/Angelina.png" href="Angelina" width="300px" height="200px">
+                </div>
+                <div class="PR">
+                    <img src="images/Ivan.png" href="Ivan" width="300px" height="200px">
+                </div>
+                <div class="PR">
+                    <img src="images/Anton.png" href="Anton" width="300px" height="200px">
+                </div>
             </div>
         </div>
     </section>
+    <section id="reviews">
+        <div class="container">
+            <h4>Отзывы</h4>
+            <div class="shop">
+                <div class="RP">
+                    <div class="left-part">
+                        <img src="images/Girl.png" href="Girl">
+                    </div>
+                    <div class="right-part">
+                        <h5>Джесика</h5>
+                        <p>Спасибо этому сервису, смогла найти здесь кучу полезных и самое главное экологичных вещей.
+                        </p>
+                    </div>
+                </div>
+                <div class="RP">
+                    <div class="left-part">
+                        <img src="images/Ann.png" href="Ann">
+                    </div>
+                    <div class="right-part">
+                        <h5>Анна</h5>
+                        <p>Спасибо этому сервису, смогла найти здесь кучу полезных и самое главное экологичных вещей.
+                        </p>
+                    </div>
+                </div>
+                <div class="RP">
+                    <div class="left-part">
+                        <img src="images/Girl.png" href="Girl">
+                    </div>
+                    <div class="right-part">
+                        <h5>Джесика</h5>
+                        <p>Спасибо этому сервису, смогла найти здесь кучу полезных и самое главное экологичных вещей.
+                        </p>
+                    </div>
+                </div>
+                <div class="RP">
+                    <div class="left-part">
+                        <img src="images/boy.png" href="boy">
+                    </div>
+                    <div class="right-part"></div>
+                    <h5>Майкл</h5>
+                    <p>Спасибо этому сервису, смогла найти здесь кучу полезных и самое главное экологичных вещей. </p>
+                </div>
+
+            </div>
+        </div>
+        <button>
+            <h6>Написать отзыв</h6>
+        </button>
+    </section>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <section id="site">
+                <h7>Регистрация</h7>
+                <div class=" container">
+                    <div class="button">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                        <label for="surname"></label>
+                        <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                        <div class="site">
+                            
+                            <label for="День"></label>
+                            <select name="" id="">
+                                <option value="День">День</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <label for="Месяц"></label>
+                            <select name="" id="">
+                                <option value="Месяц">Месяц</option>
+                                <option value="Январь">Январь</option>
+                                <option value="Февраль">Февраль</option>
+                                <option value="Март">Март</option>
+                            </select>
+                            <label for="Год"></label>
+                            <select name="" id="">
+                                <option value="Год">Год</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                            </select>
+                            <input type="submit" value="Зарегистрироваться">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
