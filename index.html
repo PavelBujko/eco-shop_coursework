@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <title>Эко магазин</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -102,17 +103,14 @@
 
             </div>
         </div>
-        <button>
-            <h6>Написать отзыв</h6>
-        </button>
     </section>
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="submit">
+    Оставить отзыв
   </button>
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="submit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -120,52 +118,434 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <section id="site">
-                <h7>Регистрация</h7>
-                <div class=" container">
-                    <div class="button">
-                        <label for="name"></label>
-                        <input type="text" name="name" id="name" placeholder="Ваше имя" required>
-                        <label for="surname"></label>
-                        <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
-                        <div class="site">
-                            
-                            <label for="День"></label>
-                            <select name="" id="">
-                                <option value="День">День</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                            </select>
-                            <label for="Месяц"></label>
-                            <select name="" id="">
-                                <option value="Месяц">Месяц</option>
-                                <option value="Январь">Январь</option>
-                                <option value="Февраль">Февраль</option>
-                                <option value="Март">Март</option>
-                            </select>
-                            <label for="Год"></label>
-                            <select name="" id="">
-                                <option value="Год">Год</option>
-                                <option value="1999">1999</option>
-                                <option value="2000">2000</option>
-                                <option value="2001">2001</option>
-                            </select>
-                            <input type="submit" value="Зарегистрироваться">
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div>
+                <textarea name="massage"></textarea>
+            </div>
+            <div>
+                <button>Отправить</button>
+            </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary">Сохранить</button>
         </div>
       </div>
     </div>
   </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="registrate">
+        Регистрация
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="registrate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section id="site">
+                        <h7>Регистрация</h7>
+                        <div class=" container">
+                            <div class="button">
+                                <label for="name"></label>
+                                <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                                <label for="surname"></label>
+                                <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                                <div class="site">
+
+                                    <label for="День"></label>
+                                    <select name="" id="">
+                                        <option value="День">День</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                    <label for="Месяц"></label>
+                                    <select name="" id="">
+                                        <option value="Месяц">Месяц</option>
+                                        <option value="Январь">Январь</option>
+                                        <option value="Февраль">Февраль</option>
+                                        <option value="Март">Март</option>
+                                    </select>
+                                    <label for="Год"></label>
+                                    <select name="" id="">
+                                        <option value="Год">Год</option>
+                                        <option value="1999">1999</option>
+                                        <option value="2000">2000</option>
+                                        <option value="2001">2001</option>
+                                    </select>
+                                    <div>
+                                        <button>Зарегистрироваться</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="registrate">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+        <section id="shop">
+            <div class="bg-image">
+                <div class="bg-color">
+                    <header>
+                <div class="container">
+                    <img src="images_shop/logo.png">
+                    <nav>
+                        <a href="index.html">О нас</a>
+                        <a href="shop.html" class="main">Магазин</a>
+                        <a href="sport.html">спорт</a>
+                        <a href="#">доставка</a>
+                        <a href="#">клуб</a>
+                    </nav>
+                    <div class="h-l">
+                        <a href="#"><img src="images_shop/basket.png"></a>
+                        <a href="#" class="button">зарегестрироваться / войти</a>
+                    </div>
+                </div>
+            </header>
+                    <div class="shop-text">
+                        <div class="container">
+                            <h1>Магазин</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+    
+        <section id="assortment">
+               <aside>
+                    <a href="#"">Овощи</a>
+                    <a href="#">фрукты</a>    
+                    <a href="#">орехи</a>    
+                    <a href="#">грибы</a>    
+                    <a href="#">мясо</a>  
+                    <a href="#">рыба</a>   
+                    <a href="#">птица</a>   
+                    <a href="#">кофе</a>   
+                    <a href="#">чай</a>   
+                    <a href="#">соки</a>   
+                    <a href="#">морепродукты</a>   
+                    <a href="#">яйца</a>   
+                    <a href="#">бакалея</a>   
+                    <a href="#">соевые продукты</a> 
+                    <a href="#">детское питание</a> 
+                    <a href="#">хлеб и сдоба</a>
+                    <a href="#">vegan</a> 
+                    <a href="#">raw</a>
+               </aside>
+               <div class="range">
+                   <div class="conteiner-range">
+                        <div class="card">
+                            <div class="top">
+                                <img src="images_shop/image7.png">
+                                <h1>баклажан</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>брокколи</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>имбирь</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>картофель</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>лук зеленый</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>лук красный</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>морковь</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>огурец</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>черри</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>помидор</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>перец</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>перец</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>редиска</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>свекла</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>сельдерей</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>спаржа</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>тыква</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="top">
+                                <img src="#">
+                                <h1>цукини</h1>
+                                <p>0.49$</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="plus">-</div>
+                                <input type="number">
+                                <div class="minus">+</div>
+                                <div class="basket"><img src="images_shop/Vector.svg" alt=""></div>
+                            </div>
+                        </div>
+                   </div>
+                    
+               </div>
+                     
+    
+                      
+            
+        </section>
+    
+        <section id="footer">
+            <div class="container">
+                <div class="footer-information">
+                    <div class="information">
+                    <h1>Информация</h1>
+                    <a href="#">Доставка</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Бонусная программа</a>
+                </div>
+                <div class="information">
+                    <h1>Помощь</h1>
+                    <a href="#">Контакты</a>
+                    <a href="#">Найти магазин</a>
+                    <a href="#">Процесс заказа</a>
+                    <a href="#">Как воспользоваться купоном</a>
+                </div>
+                <div class="information">
+                        <h1>Мы в соц сетях</h1>
+                    <div class="social_networks">
+                        <a href="#"><img src="images/Facebook.svg" width="48px"></a>
+                        <a href="#"><img src="images/Instagram.svg" width="48px"></a>
+                        <a href="#"><img src="images/YouTube.svg" width="48px"></a>
+                        <a href="#"><img src="images/Telegram.svg" width="48px"></a>
+                    </div>
+                    <div class="connection">
+                        <h1>Связь</h1>
+                        <a href="tel:+375(44)0000000" >+375(44)000 000 0</a>
+                        <p>no_name@gmail.com</p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            
+        </section>
+    </body>
+    </html>
 </body>
 
 </html>
