@@ -1,0 +1,1209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-r{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: background-color 900ms, color 900ms;
+}
+
+header nav a:hover{
+    color: #CC5656;
+    transition: background-color 900ms, color 900ms;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    font-variant: small-caps;
+    color: #C4C4C4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: solid 10px #F0F0F0;
+    line-height: 28px;
+}
+
+
+.h-l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.button{
+    padding: 8px 10px 8px 10px;
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color 900ms, color 900ms;
+}
+
+header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #3C484B;
+}
+
+#shop .bg-image{
+    background-image: url(images_sport/bg-img.png);
+    height: 600px;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#shop .bg-color{
+    background-color: rgba(60, 72, 75, 0.6);
+    height: 600px;
+    background-size: cover;
+}
+
+#shop .shop-text{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#shop h1{
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shop p{
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 45px;
+}
+
+header{
+    padding-top: 15px;
+    
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.women-men{
+    width: 452px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bg-img-man{
+    background-image: url(images_sport/man-1.png);
+    width: 452px;
+    height: 300px;
+    background-size: cover;
+}
+
+.bg-img-woman{
+    background-image: url(images_sport/women-1.png);
+    width: 452px;
+    height: 300px;
+    background-size: cover;
+}
+
+.text-women-men{
+    padding-top: 25%;
+}
+
+.bg-color-choice{
+    background: #c4c4c4ae;
+    width: 452px;
+    height: 300px;
+    transition: background-color 500ms
+}
+
+.bg-color-choice:hover{
+    transition: background-color 500ms
+}
+
+.text-women-men p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+.text-women-men h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.time-come-text h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    color: #3C484B;
+    padding-top: 36px;
+    padding-bottom: 5px;
+}
+
+.time-come-text p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.card-choice-main{
+    width: 25%;
+    height: 246px;
+    background-color: #3C484B;
+}
+
+.card-choice-main h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.card-choice-main img{
+    width: 71px;
+    height: 71px;
+    text-align: center;
+}
+
+.card-choice-text{
+    padding: 0 45px 0 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.card-choice-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.card-choice{
+    width: 25%;
+    height: 246px;
+    border: solid 1px #3C484B;
+}
+
+.card-choice h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #3C484B;
+}
+
+.card-choice img{
+    width: 71px;
+    height: 71px;
+    text-align: center;
+}
+
+.row-choices{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-color-kro{
+    background: linear-gradient(180deg, #3C484B 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(204, 86, 86, 0.5) 0%, rgba(255, 255, 255, 0) 100%), rgba(204, 86, 86, 0.5);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.left-img-kro{
+    background-image: url(images_sport/men-kro.png);
+    background-size: cover;
+    width: 60%;
+}
+
+.choice-of-sport a{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 42px;
+}
+
+.color-1{
+    color: #FFFFFF;
+}
+
+.color-2{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.color-3{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.color-4{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.color-5{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.right-text{
+    width: 40%;
+    background: #3C484B;
+    padding: 58px 85px 65px 50px
+}
+
+.kinds-of-sports{
+    display: flex;
+    flex-direction: row;
+}
+
+.choice-of-sport{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.right-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5%;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 21px;
+    text-transform: uppercase;
+}
+
+.right-text ul{
+    padding-top: 21px;
+    padding-left: 21px;
+}
+
+.right-text li{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    text-align: left;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.bottom-red{
+    margin-top: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 127px;
+    background: #CC5656;
+    color:#3C484B;
+    padding: 11px 30px 11px 30px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 900ms, color 900ms;
+}
+
+.card-sport{
+    width: 33.3%;
+    padding: 0 40px 0 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.card-sport:hover, .card-sport-r:hover{
+    transform: skewY(180deg);
+    transition: transform 200ms;
+}
+
+.card-sport-r{
+    background-color: #FFFFFF;
+    width: 33.3%;
+    padding: 0 50px 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-sport img, .card-sport-r img{
+    width: 89px;
+    padding-bottom: 22px;
+    padding-top: 57px;
+}
+
+.card-sport h1, .card-sport-r h1{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+.card-sport p, .card-sport-r p{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+
+.about_sport{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-img-free{
+    background-image: url(images_sport/free-bg-img.png);
+    background-size: cover;
+    height: 394px;
+}
+
+.bg-color-free{
+    background: #3c3f40af;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.bg-color-free h1{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.bg-color-free p{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+}
+
+.tel-free p{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-right: 100px;
+    border-bottom: solid 3px #ffffff;
+}
+
+.tel-free{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.button-send{
+    background: #CC5656;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    padding: 13px 10px 9px 10px;
+    text-decoration: none;
+    margin-left: 46px;
+    text-align: center;
+    transition: background-color 900ms, color 900ms;
+    border: solid 0px;
+}
+
+.tel-free .tell, input::placeholder{
+    background-color: #ffffff00;
+    border: 0px solid ;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* border-bottom: 2px solid #ffffff; */
+}
+
+input::placeholder{
+    border-bottom: 3px solid #ffffff;
+}
+
+
+.tel-free input:focus{
+    outline: none;
+}
+
+.prise-list h3{
+    color:#3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    text-align: center;
+    transition: color 900ms;
+}
+
+.price-card{
+    width: 227px;
+    height: 469px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: stretch;
+    transition: transform 1.5s;
+}
+
+.price-card:hover{
+    transform: scale3d(1.1, 1.1, 1.2);
+    transition: transform 1.5s;
+}
+
+.top-of-the-card{
+    border-bottom: 1px solid #3C484B;
+    margin-bottom: 26px;
+    padding-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.top-of-the-card h1{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.main-of-the-card, .main-top{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.main-top p{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.main-bottom p{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.main-bottom h2{
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.main-bottom span{
+    color: #CC5656;
+}
+
+.fotter-of-the-card{
+    background: #3C484B;
+    display: inline-block;
+}
+
+.bottom-black{
+    padding: 7px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #3C484B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 19px 60px 19px 59px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#footer{
+    background-color: #3C484B;
+}
+
+#footer .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#footer .information h1, .information-r h1{
+    color: #CC5656;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#footer .information, .information-r{
+    width: 390px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+}
+
+#footer .information a, .information-r a{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#footer .footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer .social_networks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer .connection{
+    margin-top: 27px;
+}
+
+#footer .connection p{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+.bg-color-choice:hover{
+    background: linear-gradient(180deg, #3C484B 50%, rgba(255, 255, 255, 0.45) 100%), #CC5656;
+    transition: background-color 900ms;
+    opacity: 0.8;
+}
+
+.bottom-red:hover{
+    background: #ffffff;
+    color: #cc5656;
+    transition: background-color 900ms, color 900ms;
+}
+
+.button-send:hover{
+    background: #ffffff;
+    color: #cc5656;
+    transition: background-color 900ms, color 900ms;
+}
+
+.fotter-of-the-card:hover{
+    background: #cc5656;
+    color: #ffffff;
+    transition: background-color 900ms, color 900ms;
+}
+
+.bottom-black:hover{
+    color: #cc5656;
+    transition: color 500ms;
+}
+
+.h-2{
+    display: none;
+}
+
+.h1-a-a-a{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.h-3 img{
+    display: none;
+}
+
+.h-1-2-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.h-1-2-3 div{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 900ms, color 900ms;
+}
+
+.button:hover{
+    background-color: #CC5656;
+    color: #E5E5E5;
+}
+
+.price-card:hover .top-of-the-card h1{
+    color: #cc5656;
+}
+
+.prise-list:hover h3{
+    color: #cc5656;
+    transition: color 900ms;
+}
+
+@media (max-width:1325px){
+    .h-2{
+        display: inline-block;
+    }
+
+    .h-2 img{
+        width: 80px;
+        display: none;
+    }
+
+    .h-2{
+        display: none;
+    }
+
+    .h-3 img{
+        display: inline-block;
+    }
+
+    .button, .img-club img{
+        display: none;
+    }
+
+    .logo{
+        width: 130px;
+    }
+
+    nav, .button{
+        font-size: 20px;
+    }
+    
+    .container, .container-r, .footer-information{
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 450px;
+    }
+
+    .right-text{
+        width: 50%;
+    }
+
+    .bg-color-free h1{
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .bg-color-free p{
+        text-align: center;
+    }
+
+    .information{
+        width: 50%;
+    }
+
+    .information h1{
+        font-size: 20px;
+    }
+    
+    .information p, .information a{
+        font-size: 20px;
+    }
+
+    .information{
+        width: 50%;
+    }
+
+    .information-r{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .connection{
+        width: 40%;
+    }
+
+    .footer-information{
+        flex-wrap: wrap;
+    }
+
+    .social_networks{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer .connection{
+        margin-top: 1px;
+    }
+}
+
+@media (max-width:1100px){
+    .container-r{
+        width: 95%;
+    }
+}
+
+@media (max-width:960px){
+    .container{
+        width: 98%;
+    }
+
+    nav a, .main{
+        font-size: 18px;
+    }
+
+    .h-1-2-3 div{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .h-3{
+        display: inline-block;
+        margin-left: 10px;
+        height: 35px;
+    }
+
+    .h-2 a img, .h-2{
+        display: none;
+    }
+
+    .h-1{
+        height: 40px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .price-cards{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .price-card{
+        width: 85%;
+        margin-top:40px;
+        margin-bottom: 40px;
+        display: inline-block;
+        height: 580px;
+        
+    }
+
+    .fotter-of-the-card{
+        display: block;
+    }
+
+    .bottom-black{
+        width: 40%;
+    }
+
+    .tel-free{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .card-sport, .card-sport-r{
+        width: 50%;
+    }
+
+    .top-of-the-card h1{
+        font-size: 30px;
+    }
+
+    .main-top p, .main-bottom p{
+        font-size: 20px;
+    }
+
+    .main-bottom h2{
+        font-size: 30px;
+    }
+
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 600px;
+        margin-bottom: 30px;
+    }
+
+    .information-r{
+        flex-wrap: wrap;
+    }
+
+    .social_networks, .connection{
+        width: 89%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .connection{
+        flex-direction: column;
+    }
+
+    .choice{
+        flex-wrap: wrap;
+    }
+
+    .left-img-kro{
+        display: none;
+    }
+
+    .kinds-of-sports{
+        background-image: url(images_sport/men-kro.png);
+        background-size: cover;
+    }
+
+    .right-text{
+        background: linear-gradient(180deg, #3C484B 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(
+        180deg, rgba(204, 86, 86, 0.5) 0%, rgba(255, 255, 255, 0) 100%), rgba(204, 86, 86, 0.5);
+        background-size: cover;
+        width: 100%
+    }
+
+    #shop h1{
+        text-align: center;
+    }
+}
+
+@media (max-width:680px){
+    nav{
+        display: none;
+    }
+
+    .shop-text h1{
+        font-size: 50px;
+    }
+
+    .h-2, .h-2 a, .h-2 a img{
+        display: inline-block;
+        height: 35px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:654px){
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 500px;
+    }
+
+    .row-choices{
+        flex-wrap: wrap;
+    }
+
+    .card-choice-main, .card-choice{
+        width: 50%;
+        height: 150px;
+    }
+
+    .tel-free p{
+        padding-right: 50px;
+    }
+}
+
+@media (max-width:630px){
+    .card-sport, .card-sport-r{
+        width: 100%;
+    }
+
+    .bottom-black{
+        height: 40px;
+    }
+
+    .bottom-black{
+        font-size: 23px;
+    }
+
+    .bg-color-free h1, .prise-list h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .card-sport h1, .card-sport-r h1{
+        font-size: 30px;
+    }
+
+    .right-text p, .right-text li{
+        font-size: 20px;
+    }
+
+    .card-sport p, .card-sport-r p, .time-come-text p{
+        font-size: 20px;
+    }
+
+    .bottom-red{
+        width: 150px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:560px){
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 450px;
+    }
+
+    #shop h1{
+        font-size: 60px;
+    }
+
+    .bottom-black{
+        width: 50%;
+    }
+
+    .button-send{
+        margin-left: 20px;
+    }
+    
+    .tel-free{
+        flex-wrap: wrap;
+        
+    }
+    
+    .tel-free .tell, input::placeholder{
+        width: 150px;
+        height: 44px;
+    }
+
+    input::placeholder{
+        /* border-bottom: 5px solid #ffffff; */
+        margin-bottom: 10px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .right-text{
+        padding: 40px 30px 30px 30px;
+    }
+}
+
+@media (max-width:450px){
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 400px;
+    }
+    
+    .right-text h1{
+        font-size: 50px;
+    }
+
+    #shop h1{
+        font-size: 50px;
+    }
+    .choice-of-sport a{
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:399px){
+    .choice-of-sport a{
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:397px){
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        width: 350px;
+    }
+
+    .bottom-black{
+        width: 60%;
+    }
+}
+
+@media (max-width:470px){
+    .logo{
+        width: 90px;
+    }
+    .h-2 img, .h-3{
+        display: inline-block;
+        margin-left: 5px;
+        height: 25px;
+        width: 70px;
+    }
+
+    .right-text{
+        height: 600px;
+    }
+
+    .bottom-red{
+        width: 200px;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .women-men, .bg-img-man, .bg-color-choice, .bg-img-woman{
+        height: 250px;
+    }
+
+    .card-choice-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-choice, .card-choice-main, .card-choice-text{
+        width: 100%;
+    }
+
+    p{
+        font-size: 23px;
+    }
+
+    #footer .information a, .information-r a {
+        padding-top: 10px;
+    }
+
+}
