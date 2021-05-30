@@ -4,15 +4,63 @@
     box-sizing: border-box;
 }
 
+.btn-primary{
+    background-color: #8CD339;
+    border-color: #8CD339;
+    color: #fff;
+    padding :0 0;
+    margin-left: 30px;
+}
 
-*{
-    padding: 0;
-    margin: 0;
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #8CD339;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    border-color: #25BA00;
+    background-color: #FFFFFF;
+}
+
+.site{
+    padding-top: 20px;
+    border-color: #25BA00;
+}
+
+
+textarea{
+    resize: none;
+    width: 460px;
+    height: 115px;
+}
+
+.button{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.coffee input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 15px;
 }
 
 header nav a{
     padding-left: 32px;
     text-transform: uppercase;
+    color: #fff;
+    transition: color 100ms, font-size 500ms;
+}
+
+header nav a:hover{
+    color: #8CD339;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: color 1000ms, font-size 500ms;
+    font-size: 21px;
 }
 
 .main{
@@ -43,11 +91,20 @@ header nav a{
     align-items: center;
 }
 
-.button{
-    padding: 3px 7px 3px 7px;
+.button-n{
+    padding: 5px 10px;
     background: #77B134;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 15px;
+    transition: background-color 1000ms;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.button-n:hover{
+    background: #fff;
+    color: #77B134;
+    transition: background-color 1000ms;
 }
 
 header a{
@@ -140,7 +197,7 @@ header{
     color: #3C484B;
 }
 
-#sections_site .button {
+#sections_site .button-l {
     width: 141px;
     height: 49px;
     background-color: #25BA00;
@@ -180,34 +237,22 @@ header{
     margin-bottom: 67px;
 }
 
-#why_we .block-green{
-    width: 59.5%;
-    height: 606px;
+#why_we{
     background-color: #25BA00;
-}
-
-#why_we .block-img{
-    width: 40.5%;
-
     background-image: url(images/green_basket.png);
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#why_we .blocks{
-    display: flex;
-    flex-direction: row;
-    position: relative;
+    background-size: 50%;
+    
 }
 
 #why_we .why_we-criteria{
-    position: absolute;
-    top: 52px;
-    left: 140px; 
-    width: 828px;
+    width: 750px;
     border-radius: 28px;
     background-color: #fff;
-    padding: 24px 69px 46px 42px;
+    padding: 14px 19px 14px 19px;
+    margin: 50px auto 50px auto;
+    display: inline-block;
 }
 
 #why_we .why_we-criteria span{
@@ -227,7 +272,8 @@ header{
     color: #3C484B;
     font-size: 26px;
     font-weight: 700;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #Why_you_natural_prosucts .container{
@@ -277,6 +323,122 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+#team .human img{
+    width: 400px;
+    height: 420px;
+}
+
+#team .plate{
+    width: 402px;
+    height: 138px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: -130px;
+    position: relative;
+    z-index: 5;
+}
+
+#team .plate h1{
+   font-family: 'Inter', sans-serif;
+   font-weight: 600;
+   font-size: 42px;
+   align-items: center;
+}
+
+#team .plate p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #3C484B;
+    margin-top: -10px;
+    align-items: center;
+}
+
+#team .teams{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+#team h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #3C484B;
+}
+
+#reviews .review{
+    width: 590px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#reviews h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding: 63px 0 55px;
+    text-align: center;
+}
+
+#reviews .review h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #2e2e2e;
+    padding-left: 25px;
+}
+
+#reviews .review p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2e2e2e;
+    padding-left: 24px;
+    line-height: 29px;
+}
+
+#reviews .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#reviews .end-revies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#reviews .button-otz{
+    width: 640px;
+}
+
+#reviews .end-revies .button-otz p{
+    padding: 14px 234px;
+    font-size: 22px;
 }
 
 #footer{
@@ -340,6 +502,20 @@ header{
     font-size: 24px;
     font-weight: 500;
     margin-top: 9px;
+}
+
+@media (max-width:1400px){
+    #team .human img{
+        width: 360px;
+        height: 360px;
+        margin-right: 50px;
+    }
+
+    #team .plate{
+        width: 360px;
+        height: 120px;
+        margin-top: -100px;
+    }
 }
 
 @media (max-width:1378px){
@@ -481,12 +657,152 @@ header{
     }
 }
 
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 220px;
+        height: 220px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1255px){
+    #reviews .review_img img{
+        width: 230px;
+        height: 230px;
+    }
+
+    #reviews .review{
+        width: 560px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+
 @media (max-width:1244px){
     #Why_you_natural_prosucts h2{
         max-width: 90%;
         margin: auto;
         font-size: 70px;
         margin-bottom: 50px;
+    }
+
+    #why_we{
+        background-size: 63%;
+    }
+}
+
+@media (max-width:1215px){
+    #reviews .review_img img{
+        width: 240px;
+        height: 260px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 550px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1207px){
+
+    #team .teams{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container{
+        max-width:95%
+    }
+
+    #reviews .review_img img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 500px;
+    }
+
+    #reviews .review h1{
+        font-size: 30px;
+    }
+
+    #reviews .review p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1091px){
+    #team .teams{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container{
+        max-width:95%
+    }
+
+    #reviews .review_img img{
+        width: 180px;
+        height: 180px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 480px;
+    }
+
+    #reviews .review h1{
+        font-size: 30px;
+    }
+
+    #reviews .review p{
+        font-size: 20px;
     }
 }
 
@@ -513,6 +829,25 @@ header{
     }
 
     #footer .information{
+        width: 300px;
+    }
+
+    .container{
+        max-width: 95%;
+    }
+}
+
+@media (max-width:994px){
+    .container{
+        max-width: 95%;
+    }
+
+    #team .human img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #team .plate{
         width: 300px;
     }
 }
@@ -614,6 +949,34 @@ header{
 @media (max-width:620px){
     #sections_site h1{
         font-size: 40px;
+    }
+
+    #team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #team .teams{
+        overflow-x: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #team .human{
+        margin-bottom: 50px;
+        
+    }
+
+    #team .human img{
+        width: 85%;
+        height: 85%;
+        margin: auto;
+    }
+
+    #team .plate{
+        width: 85%;
     }
 }
 
