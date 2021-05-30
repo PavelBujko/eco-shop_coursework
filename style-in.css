@@ -1,0 +1,1029 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-primary{
+    background-color: #8CD339;
+    border-color: #8CD339;
+    color: #fff;
+    padding :0 0;
+    margin-left: 30px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #8CD339;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    border-color: #25BA00;
+    background-color: #FFFFFF;
+}
+
+.site{
+    padding-top: 20px;
+    border-color: #25BA00;
+}
+
+
+textarea{
+    resize: none;
+    width: 460px;
+    height: 115px;
+}
+
+.button{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.coffee input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 15px;
+}
+
+header nav a{
+    padding-left: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 100ms, font-size 500ms;
+}
+
+header nav a:hover{
+    color: #8CD339;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: color 1000ms, font-size 500ms;
+    font-size: 21px;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-variant: small-caps;
+    color: #8CD339;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: solid 10px #8CD339;
+    line-height: 28px;
+}
+
+.h-l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.container-h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-n{
+    padding: 5px 10px;
+    background: #77B134;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+    transition: background-color 1000ms;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.button-n:hover{
+    background: #fff;
+    color: #77B134;
+    transition: background-color 1000ms;
+}
+
+header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+#shop .bg-image{
+    background-image: url(images/Picture.png);
+    height: 600px;
+    background-size: cover;
+}
+
+#shop .bg-color{
+    background-color: rgba(119, 177, 52, 0.38) ;
+    height: 600px;
+}
+
+#shop .shop-text .container{
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: column ;
+    padding-bottom: 130px;
+}
+
+#shop h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+#shop p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    padding-top: 15px;
+}
+
+
+
+
+
+#sections_site .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#sections_site h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 51px;
+    color: #3C484B;
+}
+
+#sections_site .flashcard{
+    width: 220px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 33px 41px 0px 41px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin-right: 30px;
+}
+
+#sections_site h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 25.5px;
+    text-align: center;
+    color: #3C484B;
+}
+
+#sections_site .button-l {
+    width: 141px;
+    height: 49px;
+    background-color: #25BA00;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+}
+
+#sections_site .flashcard p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#sections_site .flashcard a{
+    text-decoration: none;
+}
+
+#sections_site .flashcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 58px;
+    padding-bottom: 30px;
+    flex-wrap: inherit;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#sections_site{
+    margin-bottom: 67px;
+}
+
+#why_we{
+    background-color: #25BA00;
+    background-image: url(images/green_basket.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+
+#why_we .why_we-criteria{
+    width: 750px;
+    border-radius: 28px;
+    background-color: #fff;
+    padding: 14px 19px 14px 19px;
+    margin: 50px auto 50px auto;
+    display: inline-block;
+}
+
+#why_we .why_we-criteria span{
+    color: #25BA00;
+}
+
+#why_we .why_we-criteria h1{
+    font-family: 'Inter', sans-serif;
+    color: #25BA00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 26px;
+}
+
+#why_we .why_we-criteria p{
+    font-family: 'Inter', sans-serif;
+    color: #3C484B;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#Why_you_natural_prosucts .container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#Why_you_natural_prosucts h2{
+    font-family: 'Inter', sans-serif;
+    color: #3C484B;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 132px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Why_you_natural_prosucts span{
+    color: #25BA00;
+}
+
+#Why_you_natural_prosucts .Why_choose{
+    width: 31%;
+    margin-top: 84px;
+    margin-bottom: 150px;
+}
+
+#Why_you_natural_prosucts .Why_choose h1{
+    color: #25BA00;
+    border-bottom: #25BA00 solid 2px;
+    line-height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+}
+
+#Why_you_natural_prosucts .Why_choose p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #3C484B;
+}
+
+#Why_you_natural_prosucts .chooses{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#team .human img{
+    width: 400px;
+    height: 420px;
+}
+
+#team .plate{
+    width: 402px;
+    height: 138px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: -130px;
+    position: relative;
+    z-index: 5;
+}
+
+#team .plate h1{
+   font-family: 'Inter', sans-serif;
+   font-weight: 600;
+   font-size: 42px;
+   align-items: center;
+}
+
+#team .plate p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #3C484B;
+    margin-top: -10px;
+    align-items: center;
+}
+
+#team .teams{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+#team h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #3C484B;
+}
+
+#reviews .review{
+    width: 590px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#reviews h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding: 63px 0 55px;
+    text-align: center;
+}
+
+#reviews .review h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #2e2e2e;
+    padding-left: 25px;
+}
+
+#reviews .review p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2e2e2e;
+    padding-left: 24px;
+    line-height: 29px;
+}
+
+#reviews .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#reviews .end-revies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#reviews .button-otz{
+    width: 640px;
+}
+
+#reviews .end-revies .button-otz p{
+    padding: 14px 234px;
+    font-size: 22px;
+}
+
+#footer{
+    background-color: #3C484B;
+}
+
+#footer .container{
+    max-width: 90%;
+    margin: auto;
+}
+
+#footer .information h1{
+    color: #25BA00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#footer .information{
+    width: 390px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#footer .information a{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#footer .footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer .social_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#footer .connection{
+    margin-top: 27px;
+}
+
+#footer .connection p{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+@media (max-width:1400px){
+    #team .human img{
+        width: 360px;
+        height: 360px;
+        margin-right: 50px;
+    }
+
+    #team .plate{
+        width: 360px;
+        height: 120px;
+        margin-top: -100px;
+    }
+}
+
+@media (max-width:1378px){
+    #sections_site .container{
+        width: 90%;
+    }
+    .footer-information{
+        width: 90%;
+        margin: auto;
+    }
+
+    .information{
+        width: 360px;
+        margin-right: 15px;
+    }
+
+    #Why_you_natural_prosucts .chooses{
+        max-width: 95%;
+        margin: auto;
+    }
+
+    #Why_you_natural_prosucts .Why_choose{
+        width: 28%;
+    }
+
+    #Why_you_natural_prosucts .Why_choose h1{
+        font-size: 30px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        font-size: 23px;
+    }
+}
+
+@media (max-width:1340px){
+    #Why_you_natural_prosucts h2{
+        font-size: 35px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose h1{
+        font-size: 28px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        font-size: 22px;
+    }
+
+    #Why_you_natural_prosucts h2{
+        font-size: 33px;
+    }
+
+    #Why_you_natural_prosucts h2{
+        font-size: 60px;
+        flex-direction: column;
+    }
+    #Why_you_natural_prosucts .chooses{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose{
+        width: 70%;
+        margin-top: 34px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose h1{
+        font-size: 50px;
+        line-height: 76px;
+        border-bottom: #25BA00 solid 4px;
+    }
+
+    .chooses{
+        flex-direction: column;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        font-size: 30px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: end;
+        margin: unset;
+
+    }  
+}
+
+@media (max-width:1325px){
+    .container, .container-r, .footer-information{
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .information{
+        width: 50%;
+    }
+
+    .information h1{
+        font-size: 20px;
+    }
+    
+    .information p, .information a{
+        font-size: 20px;
+    }
+
+    .information{
+        width: 50%;
+    }
+
+    .information-r{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .connection{
+        width: 410px;
+    }
+
+    .footer-information{
+        flex-wrap: wrap;
+    }
+
+    .social_networks{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer .connection{
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 220px;
+        height: 220px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1280px){
+    #reviews .review_img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #reviews .review{
+        width: 580px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1255px){
+    #reviews .review_img img{
+        width: 230px;
+        height: 230px;
+    }
+
+    #reviews .review{
+        width: 560px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width:1244px){
+    #Why_you_natural_prosucts h2{
+        max-width: 90%;
+        margin: auto;
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+    #why_we{
+        background-size: 63%;
+    }
+}
+
+@media (max-width:1215px){
+    #reviews .review_img img{
+        width: 240px;
+        height: 260px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 550px;
+    }
+
+    #reviews .review h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1207px){
+
+    #team .teams{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container{
+        max-width:95%
+    }
+
+    #reviews .review_img img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 500px;
+    }
+
+    #reviews .review h1{
+        font-size: 30px;
+    }
+
+    #reviews .review p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1091px){
+    #team .teams{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container{
+        max-width:95%
+    }
+
+    #reviews .review_img img{
+        width: 180px;
+        height: 180px;
+        margin: auto;
+    }
+
+    #reviews .review{
+        width: 480px;
+    }
+
+    #reviews .review h1{
+        font-size: 30px;
+    }
+
+    #reviews .review p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1000px){
+    #why_we .why_we-criteria{
+        width: 728px;
+    }
+
+    #why_we .why_we-criteria p{
+        font-size: 23px;
+    }
+
+    #why_we .why_we-criteria h1{
+        font-size: 45px;
+    }
+
+    #footer .information h1{
+        font-size: 50px;
+    }
+
+    #footer .information a, #footer .information p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    #footer .information{
+        width: 300px;
+    }
+
+    .container{
+        max-width: 95%;
+    }
+}
+
+@media (max-width:994px){
+    .container{
+        max-width: 95%;
+    }
+
+    #team .human img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #team .plate{
+        width: 300px;
+    }
+}
+
+@media (max-width:950px){
+    #Why_you_natural_prosucts h2{
+        padding-top: 80px;
+    }
+
+    #Why_you_natural_prosucts .chooses{
+        width: 95%;
+    }
+
+    #why_we .why_we-criteria{
+        width: 650px;
+    }
+
+    #why_we .why_we-criteria h1{
+        font-size: 50px;
+    }
+
+    #why_we .why_we-criteria p{
+        font-size: 30px;
+    }
+
+    #why_we .block-green{
+        height: 750px;
+    }
+
+    #why_we .why_we-criteria{
+        padding: 24px 15px 0px 42px;
+    }
+
+    #footer .information h1{
+        font-size: 55px;
+    }
+
+    #footer .information{
+        width: 90%;
+    }
+
+    #footer .information a, #footer .information p{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:830px){
+    #why_we .why_we-criteria{
+        left: 10%;
+        width: 85%;
+    }
+
+    #why_we .why_we-criteria p{
+        font-size: 25px;
+    }
+
+    #why_we .why_we-criteria h1{
+        font-size: 40px;
+    }
+
+    #why_we .block-green{
+        height: 550px;
+    }
+}
+
+
+@media (max-width:710px){
+    #why_we .block-green{
+        height: 690px;
+        width: 50%;
+    }
+
+    .block-img{
+        width: 50%;
+    }
+
+    #Why_you_natural_prosucts h2{
+        font-size: 50px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        font-size: 30px;
+    }
+
+    #why_we .why_we-criteria{
+        width: 70%;
+    }
+    #why_we .block-img{
+        width: 50%;
+    }
+}
+
+@media (max-width:620px){
+    #sections_site h1{
+        font-size: 40px;
+    }
+
+    #team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #team .teams{
+        overflow-x: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #team .human{
+        margin-bottom: 50px;
+        
+    }
+
+    #team .human img{
+        width: 85%;
+        height: 85%;
+        margin: auto;
+    }
+
+    #team .plate{
+        width: 85%;
+    }
+}
+
+@media (max-width:550px){
+    #Why_you_natural_prosucts .Why_choose{
+        margin-bottom: 40px;
+    }
+
+    #sections_site h1{
+        font-size: 35px;
+    }
+
+    #Why_you_natural_prosucts h2{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:527px){
+    #why_we .block-green{
+        height: 600px;
+    }
+
+    #why_we .why_we-criteria{
+        width: 75%;
+    }
+
+    #why_we .why_we-criteria p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:484px){
+    #footer .information{
+        width: 85%;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        font-size: 28px;
+    }
+
+    #Why_you_natural_prosucts .Why_choose p{
+        width: 90%;
+    }
+}
+
+@media (max-width:477px){
+    #footer .container{
+        max-width: 85%;
+    }
+}
