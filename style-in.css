@@ -89,6 +89,7 @@ header nav a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .button-n{
@@ -119,13 +120,13 @@ header a{
 
 #shop .bg-image{
     background-image: url(images/Picture.png);
-    height: 600px;
+
     background-size: cover;
 }
 
 #shop .bg-color{
     background-color: rgba(119, 177, 52, 0.38) ;
-    height: 600px;
+
 }
 
 #shop .shop-text .container{
