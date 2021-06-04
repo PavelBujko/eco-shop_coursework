@@ -788,8 +788,6 @@ header{
     }
 
     #reviews .review_img img{
-        width: 180px;
-        height: 180px;
         margin: auto;
     }
 
@@ -898,7 +896,12 @@ header{
         width: 85%;
     }
     #reviews .review{
-        width: 90%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #reviews .review h1, #reviews .review p{
+        padding-left: 0;
     }
     #why_we .why_we-criteria p{
         font-size: 25px;
