@@ -129,7 +129,7 @@ header a{
 }
 
 #shop .shop-text .container{
-    height: 500px;
+
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
