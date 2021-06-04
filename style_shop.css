@@ -8,7 +8,7 @@
     width: 1300px;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -59,19 +59,18 @@ header a{
 
 #shop .bg-image{
     background-image: url(images_shop/shop.png);
-    height: 600px;
     background-size: cover;
 }
 
 #shop .bg-color{
     background-color: rgba(119, 177, 52, 0.38) ;
-    height: 600px;
+    padding-bottom: 70px;
 }
 
 #shop .shop-text{
-    height: 600px;
     display: flex;
     justify-content: flex-start;
+    padding-top: 50px;
 }
 
 #shop h1{
@@ -203,11 +202,7 @@ aside a{
     #footer{
         background-color: #3C484B;
     }
-    
-    #footer .container{
-        max-width: 1300px;
-        margin: auto;
-    }
+
     
     #footer .information h1{
         color: #25BA00;
@@ -218,7 +213,7 @@ aside a{
     }
     
     #footer .information{
-        width: 390px;
+        width: 30%;
         margin-top: 47px;
         margin-bottom: 30px;
     }
@@ -263,10 +258,6 @@ aside a{
     background-color: #3C484B;
 }
 
-#footer .container{
-    max-width: 1300px;
-    margin: auto;
-}
 
 #footer .information h1{
     color: #25BA00;
@@ -276,11 +267,6 @@ aside a{
     display: inline-block;
 }
 
-#footer .information{
-    width: 390px;
-    margin-top: 47px;
-    margin-bottom: 30px;
-}
 
 #footer .information a{
     color: #C4C4C4;
@@ -295,7 +281,7 @@ aside a{
 
 #footer .footer-information{
     display: flex;
-    flex-direction: row;
+    flex-wrap:wrap;
     justify-content: space-between;
     width: 100%;
 }
@@ -316,4 +302,52 @@ aside a{
     font-size: 24px;
     font-weight: 500;
     margin-top: 9px;
+}
+
+@media(max-width: 1300px){
+    .container{
+        max-width: 95%;
+    }
+
+    #footer .information h1{
+        font-size: 40px;
+    }
+
+    aside{
+        width: 35%;
+    }
+    .range{
+        width: 63%;
+    }
+}
+
+@media(max-width: 768px){
+    #footer .information{
+        width: 50%;
+    }
+    header nav{
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 500px){
+    #assortment aside{
+        width: 100%;
+        column-count: 2;
+    }
+    .range{
+        width: 100%;
+    }
+    aside a{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    #shop h1{
+        font-size: 55px;    
+    }
+
+    #footer .information{
+        width: 100%;
+    }
 }
