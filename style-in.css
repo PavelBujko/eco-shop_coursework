@@ -922,7 +922,7 @@ header{
     }
     
     #shop  header nav{
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     .block-img{
@@ -1031,5 +1031,9 @@ header{
 @media (max-width:477px){
     #footer .container{
         max-width: 85%;
+    }
+    header nav a{
+        padding-left: 0;
+        padding-right: 20px;
     }
 }
