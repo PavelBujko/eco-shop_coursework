@@ -765,7 +765,7 @@ header{
     }
 
     #reviews .review{
-        width: 500px;
+        width: 45%;
     }
 
     #reviews .review h1{
@@ -793,9 +793,6 @@ header{
         margin: auto;
     }
 
-    #reviews .review{
-        width: 480px;
-    }
 
     #reviews .review h1{
         font-size: 30px;
@@ -900,7 +897,9 @@ header{
         left: 10%;
         width: 85%;
     }
-
+    #reviews .review{
+        width: 90%;
+    }
     #why_we .why_we-criteria p{
         font-size: 25px;
     }
