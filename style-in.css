@@ -984,7 +984,9 @@ header{
     #Why_you_natural_prosucts .Why_choose{
         margin-bottom: 40px;
     }
-
+    #shop h1{
+    font-size: 40px;
+    }
     #sections_site h1{
         font-size: 35px;
     }
