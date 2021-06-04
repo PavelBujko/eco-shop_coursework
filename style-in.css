@@ -648,7 +648,7 @@ header{
     }
 
     .social_networks{
-        display: flex;
+        display: flex !important;
         flex-direction: column;
     }
     
@@ -925,8 +925,8 @@ header{
         width: 50%;
     }
 
-    #Why_you_natural_prosucts h2{
-        font-size: 50px;
+    #Why_you_natural_prosucts h2, #team h2, #reviews h2, #footer .information h1{
+        font-size: 40px;
     }
 
     #Why_you_natural_prosucts .Why_choose h1{
