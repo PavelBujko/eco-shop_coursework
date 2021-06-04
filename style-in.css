@@ -920,6 +920,10 @@ header{
         height: 690px;
         width: 50%;
     }
+    
+    #shop  header nav{
+        margin: 10px 0;
+    }
 
     .block-img{
         width: 50%;
