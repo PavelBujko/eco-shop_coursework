@@ -130,12 +130,11 @@ header a{
 }
 
 #shop .shop-text .container{
-    height: 500px;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
     flex-direction: column ;
-    padding-bottom: 130px;
+    padding: 50px 0 130px;
 }
 
 #shop h1{
