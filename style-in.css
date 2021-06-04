@@ -118,7 +118,7 @@ header a{
 }
 
 #shop .bg-image{
-    background-image: url(images/Picture.png);
+    background-image: url(images/Picture.jpg);
     height: 600px;
     background-size: cover;
 }
